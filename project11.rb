@@ -51,6 +51,8 @@ def max_product
       r = t if t > r
     end
   end
+
+  r
 end
 
-max_product()
+puts max_product()
